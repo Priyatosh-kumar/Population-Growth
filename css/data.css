@@ -26,11 +26,7 @@ html{
 body{ 
  background:#f6f8fc; 
  padding-top: 80px;
-} 
-section{ 
- padding:2rem 9%; 
-} 
- 
+}  
 header{ 
  position: fixed; 
  top:0; left: 0; right:0; 
