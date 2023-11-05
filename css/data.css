@@ -9,7 +9,7 @@ url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&di
  box-sizing: border-box; 
  outline: none; border:none; 
  text-decoration: none; 
- text-transform: capitalize; 
+ text-transform: Auto; 
  transition:all .2s linear; 
 } 
 *::selection{ 
@@ -59,3 +59,39 @@ header .navbar a{
 header .navbar a:hover{ 
  color:var(--blue); 
 }
+.content {
+    font-size: 18px; 
+    margin: 10px 25px 25px 25px;
+    color: #1B262C; /* Section background color */
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f6f8fc;
+    box-shadow: 0 0 10px rgba(52, 92, 162, 0.2);
+}
+section {
+    background-color: #fff; /* Section background color */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(52, 92, 162, 0.2); /* Box shadow for sections */
+    border-radius: 15px;
+}
+h1{
+    background-color: #161f6d; /* Section header background color */
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.table1{
+    margin-left: 50px;
+}
+.table2{
+    margin-left: 80px;
+}
+img{
+    margin-left: 10%;
+}
+footer{
+    text-align: center;
+ }

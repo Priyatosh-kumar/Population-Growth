@@ -83,81 +83,75 @@ th {
 }
 
 div.PageTitle {
-            text-align: center;
-            padding: 20px;
-            font-size: 5rem; 
-            color:black; 
-            margin: 25px 25px 10px 25px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            font-weight: 600;
-            background-color: #fdfefe;
+    text-align: center;
+    padding: 20px;
+    font-size: 5rem; 
+    color:black; 
+    margin: 25px 25px 10px 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    background-color: #fdfefe;
 
             
-        }
+}
+.Copyright {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+    }
+.Disclaimer {
+    text-align: left;
+    margin-top: 5px;
+    font-size: small;
+    }
 
-        .Copyright {
-            text-align: center;
-            margin-top: 10px;
-            font-size: small;
-        }
+.CellHeading {
+    border-bottom: solid 1px lightblue;
+    font-weight: bold;
+    }
 
-        .Disclaimer {
-            text-align: left;
-            margin-top: 5px;
-            font-size: small;
-        }
+.AlternatingRow tr:nth-child(odd) {
+    background-color: white;
+    }
 
-        .CellHeading {
-            border-bottom: solid 1px lightblue;
-            font-weight: bold;
-        }
+.AlternatingRow tr:nth-child(even) {
+    background-color: #E9F1F8;
+    }
 
-        .AlternatingRow tr:nth-child(odd) {
-            background-color: white;
-        }
-
-        .AlternatingRow tr:nth-child(even) {
-            background-color: #E9F1F8;
-        }
-
-        .TabsAsButtons.k-tabstrip {
-            text-align: center;
-            width: 100%;
-        }
-
-            .TabsAsButtons.k-tabstrip .k-tabstrip-items {
-                text-align: center;
-            }
-
-                .TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item {
-                    background-image: none;
-                    background-color: white;
-                    border: solid 2px lightgray;
-                    display: inline-block;
-                    border-radius: 0px;
-                    max-width: 300px;
-                    height: auto;
-                    margin-top: 5px;
-                }
-
-                    .TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item.k-state-active {
-                        border: solid 2px #5B86AD !important;
-                        background-color: #5B86AD !important;
-                    }
-
-                        .TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item.k-state-active .k-link {
-                            color: white !important;
-                        }
-
-                .TabsAsButtons.k-tabstrip .k-tabstrip-items .k-item .k-link {
-                    padding-top: 4px;
-                    font-size: 0.9em;
-                }
-
-                .TabsAsButtons.k-tabstrip .k-tabstrip-items .k-item:not(:first-child) {
-                    margin-left: 10px;
-                }
-
-            .TabsAsButtons.k-tabstrip .k-content {
-                border: none;
-            }
+.TabsAsButtons.k-tabstrip {
+    text-align: center;
+    width: 100%;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items {
+    text-align: center;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item {
+    background-image: none;
+    background-color: white;
+    border: solid 2px lightgray;
+    display: inline-block;
+    border-radius: 0px;
+    max-width: 300px;
+    height: auto;
+    margin-top: 5px;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item.k-state-active {
+    border: solid 2px #5B86AD !important;
+    background-color: #5B86AD !important;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items > .k-item.k-state-active .k-link {
+    color: white !important;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items .k-item .k-link {
+    padding-top: 4px;
+    font-size: 0.9em;
+    }
+.TabsAsButtons.k-tabstrip .k-tabstrip-items .k-item:not(:first-child) {
+    margin-left: 10px;
+    }
+.TabsAsButtons.k-tabstrip .k-content {
+    border: none;
+    }
+footer{
+    text-align: center;
+}

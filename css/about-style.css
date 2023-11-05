@@ -72,11 +72,12 @@ header .navbar a:hover{
 }
         
 .container {
-            max-width: 800px;
+            max-width:1000px;
             margin: 0 auto;
             padding: 20px;
             box-shadow: 0 0 10px rgba(112, 147, 197, 0.359);
             background-color: #fff;
+            border-radius: 15px;
         }
         li{
             font-size: 15px;
@@ -87,8 +88,7 @@ header .navbar a:hover{
         }
         h2 {
             font-size: 24px;
-            color: #0d47a1;
-            background-color: rgba(50, 130, 184,0.85);
+            background-color: #161f6d;
             color: #fff;
             padding: 10px;
             margin: 20px 0;

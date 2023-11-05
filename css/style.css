@@ -197,3 +197,9 @@ html {
     background-color: #f9f9f9;
 
    }
+a:visited, a:hover, a:active {
+      color: inherit;
+    }
+footer{
+   text-align: center;
+}

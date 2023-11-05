@@ -80,7 +80,7 @@ h1 {
 }
 
 h2 {
-    background-color: #333; /* Section header background color */
+    background-color: #161f6d; /* Section header background color */
     color: #fff;
     padding: 10px;
     margin: 20px 0;
@@ -112,3 +112,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
+footer{
+    text-align: center;
+} 

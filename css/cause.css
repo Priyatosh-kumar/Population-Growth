@@ -79,7 +79,7 @@ h1 {
 }
 
 h2 {
-    background-color: #333; /* Section header background color */
+    background-color: #161f6d; /* Section header background color */
     color: #fff;
     padding: 10px;
     margin: 20px 0;
@@ -110,5 +110,7 @@ a {
     color: #0073e6; /* Link color */
     text-decoration: none;
 }
-
+footer{
+    text-align: center;
+ }
 
